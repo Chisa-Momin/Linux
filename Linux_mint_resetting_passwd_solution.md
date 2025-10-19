@@ -1,9 +1,9 @@
 ## Resetting the forgotten passwd in linux mint
-#### Description
+#### **Description**
 
 i forgot my linux mint both username and passwd after not logging in for many months and had not saved in any notes/password manager in my phone
 
-#### Solution
+#### **Solution**
 
 ###### _1.what help source did i took_
  -I took help from youtube,reddit..etc.

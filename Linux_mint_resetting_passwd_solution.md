@@ -24,8 +24,13 @@ After that press `fn+f10`
 After that you need to write this command in the terminal:
 ```
 mount -n -o remount,rw /
+```
+And then, Press `enter`
+```
 exec /sbin/init 
 ```
+Again, Press `enter`
+
 Afterwards you can reset your root passwd,by the following command:
 ```
 passwd root
@@ -41,6 +46,7 @@ Afterwards type this:
 passwd username
 ```
 You should by now ,resetted the passwd and then restart your computer and enjoy your new passwd!
+
 
 
 

@@ -16,12 +16,12 @@ i forgot my linux mint both username and passwd after not logging in for many mo
 [Linux Mint User Guide](https://linuxmint-user-guide.readthedocs.io/_/downloads/en/latest/pdf/) :Hop over to the Chapter 6 to follow whatever i had said in this repo.
 
 ######  _4.what if i forgot the root passwd ?_
--I actually forgotten the root passwd and in the event of forgetting the root passwd you can't even get back your username and change your passwd .This video saved my time and energy [Linux Mint Video showing how to overwrite root password](https://youtu.be/8W5CWhg19pI?si=Hq5rFaVmfPqSi9Pu) .So you first restart your computer and then continuously press shift to get the grub menu .After that,select the Advanced options < Recovery mode. Instead of pressing recovery mode, you can usually do this,if you remember you root passwd.If not,then do not press the recovery mode instead press `e `(which stands for edit) and then scroll down until you see _linux_ and then go the last line of _linux_ and write this.
+-I actually forgotten the root passwd and in the event of forgetting the root passwd you can't even get back your username and change your passwd .This video saved my time and energy [Linux Mint Video showing how to overwrite root password](https://youtu.be/8W5CWhg19pI?si=Hq5rFaVmfPqSi9Pu) .So you first restart your computer and then continuously press shift to get the grub menu .After that,select the Advanced options < Recovery mode. Instead of pressing recovery mode, you can usually do this,if you remember you root passwd.If not,then do not press the recovery mode instead press `e `(which stands for edit) and then scroll down until you see _linux_ and then go the last line of _linux_ and type this command.
 ```
 init=/bin/bash
 ```
 After that press `fn+f10`
-After that you need to write this command in the terminal:
+After that you need to type this command in the terminal:
 ```
 mount -n -o remount,rw /
 ```
@@ -46,6 +46,7 @@ Afterwards type this:
 passwd username
 ```
 You should by now ,resetted the passwd and then restart your computer and enjoy your new passwd!
+
 
 
 

@@ -45,7 +45,8 @@ Afterwards type this:
 ```
 passwd username
 ```
-You should by now ,resetted the passwd and then restart your computer and enjoy your new passwd!
+After restarting the computer ,the problem is solved!
+
 
 
 
